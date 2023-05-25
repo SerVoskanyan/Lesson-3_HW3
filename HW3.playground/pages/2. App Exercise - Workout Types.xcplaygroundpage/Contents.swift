@@ -59,7 +59,6 @@ func describeSwim(swimmingWorkout: Swim) {
     print("time: \(swimmingWorkout.time) sec")
     print("distance: \(swimmingWorkout.distance) m")
 }
-
 /*:
  Переберите все тренировки в массиве `workouts` и, с помощью приведения типов, вызовите либо `describeRun(runningWorkout:)`, либо `describeSwim(swimmingWorkout:)` для каждого.  Обратите внимание, что будет выведено в консоль.
  */
@@ -70,7 +69,6 @@ for item in workouts {
         describeSwim(swimmingWorkout: swimmingWorkout)
     }
 }
-
 /*:
  
  _Copyright © 2017 Apple Inc._
